@@ -6,7 +6,7 @@
       "quadrant": "languages-frameworks",
       "ring": "adopt",
       "key": "typescript",
-      "timeline": [{ "date": "2025-05-09", "ring": "adopt" }]
+      "timeline": [{ "date": "2025-05-09", "ringId": "adopt" }]
     },
     {
       "id": "go",
@@ -14,7 +14,7 @@
       "quadrant": "languages-frameworks",
       "ring": "trial",
       "key": "go",
-      "timeline": [{ "date": "2025-05-09", "ring": "trial" }]
+      "timeline": [{ "date": "2025-05-09", "ringId": "trial" }]
     },
     {
       "id": "rust",
@@ -22,7 +22,7 @@
       "quadrant": "languages-frameworks",
       "ring": "assess",
       "key": "rust",
-      "timeline": [{ "date": "2025-05-09", "ring": "assess" }]
+      "timeline": [{ "date": "2025-05-09", "ringId": "assess" }]
     },
     {
       "id": "perl",
@@ -30,7 +30,7 @@
       "quadrant": "languages-frameworks",
       "ring": "hold",
       "key": "perl",
-      "timeline": [{ "date": "2025-05-09", "ring": "hold" }]
+      "timeline": [{ "date": "2025-05-09", "ringId": "hold" }]
     },
     {
       "id": "terraform",
@@ -38,7 +38,7 @@
       "quadrant": "devops",
       "ring": "adopt",
       "key": "terraform",
-      "timeline": [{ "date": "2025-05-09", "ring": "adopt" }]
+      "timeline": [{ "date": "2025-05-09", "ringId": "adopt" }]
     },
     {
       "id": "github-actions",
@@ -46,7 +46,7 @@
       "quadrant": "devops",
       "ring": "adopt",
       "key": "github-actions",
-      "timeline": [{ "date": "2025-05-09", "ring": "adopt" }]
+      "timeline": [{ "date": "2025-05-09", "ringId": "adopt" }]
     },
     {
       "id": "argocd",
@@ -54,7 +54,7 @@
       "quadrant": "devops",
       "ring": "trial",
       "key": "argocd",
-      "timeline": [{ "date": "2025-05-09", "ring": "trial" }]
+      "timeline": [{ "date": "2025-05-09", "ringId": "trial" }]
     },
     {
       "id": "spinnaker",
@@ -62,7 +62,7 @@
       "quadrant": "devops",
       "ring": "assess",
       "key": "spinnaker",
-      "timeline": [{ "date": "2025-05-09", "ring": "assess" }]
+      "timeline": [{ "date": "2025-05-09", "ringId": "assess" }]
     },
     {
       "id": "backstage",
@@ -70,7 +70,7 @@
       "quadrant": "developer-experience",
       "ring": "adopt",
       "key": "backstage",
-      "timeline": [{ "date": "2025-05-09", "ring": "adopt" }]
+      "timeline": [{ "date": "2025-05-09", "ringId": "adopt" }]
     },
     {
       "id": "vite",
@@ -78,7 +78,7 @@
       "quadrant": "developer-experience",
       "ring": "trial",
       "key": "vite",
-      "timeline": [{ "date": "2025-05-09", "ring": "trial" }]
+      "timeline": [{ "date": "2025-05-09", "ringId": "trial" }]
     },
     {
       "id": "storybook",
@@ -86,7 +86,7 @@
       "quadrant": "developer-experience",
       "ring": "assess",
       "key": "storybook",
-      "timeline": [{ "date": "2025-05-09", "ring": "assess" }]
+      "timeline": [{ "date": "2025-05-09", "ringId": "assess" }]
     },
     {
       "id": "yeoman",
@@ -94,7 +94,7 @@
       "quadrant": "developer-experience",
       "ring": "hold",
       "key": "yeoman",
-      "timeline": [{ "date": "2025-05-09", "ring": "hold" }]
+      "timeline": [{ "date": "2025-05-09", "ringId": "hold" }]
     },
     {
       "id": "kubernetes",
@@ -102,7 +102,7 @@
       "quadrant": "cloud-infra",
       "ring": "adopt",
       "key": "kubernetes",
-      "timeline": [{ "date": "2025-05-09", "ring": "adopt" }]
+      "timeline": [{ "date": "2025-05-09", "ringId": "adopt" }]
     },
     {
       "id": "helm",
@@ -110,7 +110,7 @@
       "quadrant": "cloud-infra",
       "ring": "adopt",
       "key": "helm",
-      "timeline": [{ "date": "2025-05-09", "ring": "adopt" }]
+      "timeline": [{ "date": "2025-05-09", "ringId": "adopt" }]
     },
     {
       "id": "nomad",
@@ -118,7 +118,7 @@
       "quadrant": "cloud-infra",
       "ring": "trial",
       "key": "nomad",
-      "timeline": [{ "date": "2025-05-09", "ring": "trial" }]
+      "timeline": [{ "date": "2025-05-09", "ringId": "trial" }]
     },
     {
       "id": "openstack",
@@ -126,7 +126,7 @@
       "quadrant": "cloud-infra",
       "ring": "assess",
       "key": "openstack",
-      "timeline": [{ "date": "2025-05-09", "ring": "assess" }]
+      "timeline": [{ "date": "2025-05-09", "ringId": "assess" }]
     }
   ],
   "quadrants": [
