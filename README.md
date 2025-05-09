@@ -1,5 +1,8 @@
 # VeeCode Tech Radar
 
-Use the URL below for the raw JSON file:
+Use any of the URLs below for the raw JSON file:
 
-https://raw.githubusercontent.com/veecode-labs/tech-radar/refs/heads/main/docs/radar-data.json
+- https://veecode-labs.github.io/tech-radar/radar-data.json
+
+- https://raw.githubusercontent.com/veecode-labs/tech-radar/refs/heads/main/docs/radar-data.json
+
