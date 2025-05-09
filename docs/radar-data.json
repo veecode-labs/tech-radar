@@ -1,9 +1,133 @@
 {
-  "rings": [
-    { "id": "adopt", "name": "Adopt", "color": "#93c47d", "description": "Technologies we fully endorse and recommend for widespread use." },
-    { "id": "trial", "name": "Trial", "color": "#93d2c2", "description": "Promising technologies worth trying on a project with moderate risk." },
-    { "id": "assess", "name": "Assess", "color": "#fbdb84", "description": "Technologies to explore with caution; not yet recommended." },
-    { "id": "hold", "name": "Hold", "color": "#efafa9", "description": "Technologies to avoid or phase out; not recommended for new projects." }
+  "entries": [
+    {
+      "id": "typescript",
+      "title": "TypeScript",
+      "quadrant": "languages-frameworks",
+      "ring": "adopt",
+      "key": "typescript",
+      "timeline": [{ "date": "2025-05-09", "ring": "adopt" }]
+    },
+    {
+      "id": "go",
+      "title": "Go",
+      "quadrant": "languages-frameworks",
+      "ring": "trial",
+      "key": "go",
+      "timeline": [{ "date": "2025-05-09", "ring": "trial" }]
+    },
+    {
+      "id": "rust",
+      "title": "Rust",
+      "quadrant": "languages-frameworks",
+      "ring": "assess",
+      "key": "rust",
+      "timeline": [{ "date": "2025-05-09", "ring": "assess" }]
+    },
+    {
+      "id": "perl",
+      "title": "Perl",
+      "quadrant": "languages-frameworks",
+      "ring": "hold",
+      "key": "perl",
+      "timeline": [{ "date": "2025-05-09", "ring": "hold" }]
+    },
+    {
+      "id": "terraform",
+      "title": "Terraform",
+      "quadrant": "devops",
+      "ring": "adopt",
+      "key": "terraform",
+      "timeline": [{ "date": "2025-05-09", "ring": "adopt" }]
+    },
+    {
+      "id": "github-actions",
+      "title": "GitHub Actions",
+      "quadrant": "devops",
+      "ring": "adopt",
+      "key": "github-actions",
+      "timeline": [{ "date": "2025-05-09", "ring": "adopt" }]
+    },
+    {
+      "id": "argocd",
+      "title": "ArgoCD",
+      "quadrant": "devops",
+      "ring": "trial",
+      "key": "argocd",
+      "timeline": [{ "date": "2025-05-09", "ring": "trial" }]
+    },
+    {
+      "id": "spinnaker",
+      "title": "Spinnaker",
+      "quadrant": "devops",
+      "ring": "assess",
+      "key": "spinnaker",
+      "timeline": [{ "date": "2025-05-09", "ring": "assess" }]
+    },
+    {
+      "id": "backstage",
+      "title": "Backstage",
+      "quadrant": "developer-experience",
+      "ring": "adopt",
+      "key": "backstage",
+      "timeline": [{ "date": "2025-05-09", "ring": "adopt" }]
+    },
+    {
+      "id": "vite",
+      "title": "Vite",
+      "quadrant": "developer-experience",
+      "ring": "trial",
+      "key": "vite",
+      "timeline": [{ "date": "2025-05-09", "ring": "trial" }]
+    },
+    {
+      "id": "storybook",
+      "title": "Storybook",
+      "quadrant": "developer-experience",
+      "ring": "assess",
+      "key": "storybook",
+      "timeline": [{ "date": "2025-05-09", "ring": "assess" }]
+    },
+    {
+      "id": "yeoman",
+      "title": "Yeoman",
+      "quadrant": "developer-experience",
+      "ring": "hold",
+      "key": "yeoman",
+      "timeline": [{ "date": "2025-05-09", "ring": "hold" }]
+    },
+    {
+      "id": "kubernetes",
+      "title": "Kubernetes",
+      "quadrant": "cloud-infra",
+      "ring": "adopt",
+      "key": "kubernetes",
+      "timeline": [{ "date": "2025-05-09", "ring": "adopt" }]
+    },
+    {
+      "id": "helm",
+      "title": "Helm",
+      "quadrant": "cloud-infra",
+      "ring": "adopt",
+      "key": "helm",
+      "timeline": [{ "date": "2025-05-09", "ring": "adopt" }]
+    },
+    {
+      "id": "nomad",
+      "title": "Nomad",
+      "quadrant": "cloud-infra",
+      "ring": "trial",
+      "key": "nomad",
+      "timeline": [{ "date": "2025-05-09", "ring": "trial" }]
+    },
+    {
+      "id": "openstack",
+      "title": "OpenStack",
+      "quadrant": "cloud-infra",
+      "ring": "assess",
+      "key": "openstack",
+      "timeline": [{ "date": "2025-05-09", "ring": "assess" }]
+    }
   ],
   "quadrants": [
     { "id": "languages-frameworks", "name": "Languages & Frameworks" },
@@ -11,25 +135,10 @@
     { "id": "developer-experience", "name": "Developer Experience" },
     { "id": "cloud-infra", "name": "Infrastructure & Cloud" }
   ],
-  "entries": [
-    { "quadrant": "languages-frameworks", "ring": "adopt", "label": "TypeScript", "active": true, "moved": 1 },
-    { "quadrant": "languages-frameworks", "ring": "trial", "label": "Go", "active": true, "moved": 1 },
-    { "quadrant": "languages-frameworks", "ring": "assess", "label": "Rust", "active": true, "moved": 0 },
-    { "quadrant": "languages-frameworks", "ring": "hold", "label": "Perl", "active": false, "moved": -1 },
-
-    { "quadrant": "devops", "ring": "adopt", "label": "Terraform", "active": true, "moved": 1 },
-    { "quadrant": "devops", "ring": "adopt", "label": "GitHub Actions", "active": true, "moved": 1 },
-    { "quadrant": "devops", "ring": "trial", "label": "ArgoCD", "active": true, "moved": 1 },
-    { "quadrant": "devops", "ring": "assess", "label": "Spinnaker", "active": false, "moved": -1 },
-
-    { "quadrant": "developer-experience", "ring": "adopt", "label": "Backstage", "active": true, "moved": 1 },
-    { "quadrant": "developer-experience", "ring": "trial", "label": "Vite", "active": true, "moved": 0 },
-    { "quadrant": "developer-experience", "ring": "assess", "label": "Storybook", "active": true, "moved": 0 },
-    { "quadrant": "developer-experience", "ring": "hold", "label": "Yeoman", "active": false, "moved": -1 },
-
-    { "quadrant": "cloud-infra", "ring": "adopt", "label": "Kubernetes", "active": true, "moved": 1 },
-    { "quadrant": "cloud-infra", "ring": "adopt", "label": "Helm", "active": true, "moved": 1 },
-    { "quadrant": "cloud-infra", "ring": "trial", "label": "Nomad", "active": false, "moved": 0 },
-    { "quadrant": "cloud-infra", "ring": "assess", "label": "OpenStack", "active": false, "moved": -1 }
+  "rings": [
+    { "id": "adopt", "name": "Adopt", "color": "#93c47d" },
+    { "id": "trial", "name": "Trial", "color": "#93d2c2" },
+    { "id": "assess", "name": "Assess", "color": "#fbdb84" },
+    { "id": "hold", "name": "Hold", "color": "#efafa9" }
   ]
 }
